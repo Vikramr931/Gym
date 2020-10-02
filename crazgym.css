@@ -1,0 +1,173 @@
+body {
+    font-family: inherit;
+    font-size: inherit;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    /* background-image: url("img/backgrd1.jpg"); */
+    background-color: rgb(7, 8, 8);
+    /* border: 6663px; */
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 100%;
+    border: 44px solid black;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+
+    
+}
+
+
+.left {
+    display: inline-block;
+    /* border: 2px solid green; */
+    position: fixed;
+    left: 96px;
+    top: 29px;
+}
+
+.left img {
+    width: 149px;
+    filter: invert(70%);
+}
+
+.left img:hover {
+    filter: invert(50%);
+}
+
+.mid {
+    display: block;
+    width: 539px;
+    position: fixed;
+    right: 336px;
+    top: 27px;
+}
+
+.navbar {
+    display: inline-block;
+
+}
+
+.navbar li {
+    font-size: 18px;
+    display: inline-block;
+}
+
+.navbar li a {
+    color:#83B1CE;;
+    text-decoration: none;
+    padding: 46px 26px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: none;
+    color:white;
+}
+
+.navbar li#Pro{
+    position: fixed;
+    left: 1166px;
+}
+.fit1 img{
+    /* border: 2px solid blue; */
+    margin-left: 153px;
+    
+    
+}
+div.acontainer{
+    /* border: 2px solid gold; */
+    height: 605px;
+    width: 100%;
+    margin: 156px 0px;
+}
+.acontainer h2{
+    text-align: center;
+    margin: -519px 749px;
+    width: 386px;
+    height: 400px;
+    font-size: xxx-large;
+    color: rgb(96, 100, 89);
+}
+
+div.bcontainer{
+    /* border: 2px solid gold; */
+    height: 605px;
+    width: 100%;
+    margin: -74px 0px;
+}
+.fit2 img{
+    width: 466px;
+    margin-left: 696px;
+}
+
+.bcontainer h2{
+    text-align: center;
+    margin: -519px 90px;
+    width: 386px;
+    height: 400px;
+    font-size: 40px;
+    color: rgb(96, 100, 89);
+}
+
+footer {
+    /* text-align: center; */
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+    margin-top: 106px;
+    height: 130px;
+    background-color: #000000;
+}
+p.paragraph{
+    text-align: -webkit-center;
+    margin: 56px 474px;
+}
+.paragraph a{
+    text-decoration: none;
+    color: rgb(224, 230, 230);
+}
+
+p.copy{
+    text-align: end;
+    margin: -43px 48px;
+}
+
+.order{
+    /* border: 2px solid floralwhite; */
+    margin: 87px 0px;
+    padding: 41px 5px;
+   
+        display: flex;
+    
+}
+
+.card{
+    /* border: 2px solid red; */
+    margin: 32px 16px;
+    background-color: rgb(21, 23, 23);
+    padding: 5px 20px;
+    box-shadow: 8px 8px 3px rgb(31, 31, 29);
+    /* box-shadow: -8px -8px darkcyan; */
+    /* box-shadow: inset 3px 4px green; */
+}
+.card h2{
+    color: #000;
+    
+    text-shadow: -3px 0px rgb(54, 57, 58);
+
+}
+.card p{
+    font-family: fantasy;
+    text-align: center;
+    text-rendering: geometricPrecision;
+    color: grey;
+}
+/* div.ifam{
+    width: 500px;
+    margin: -102px 739px
+} */
